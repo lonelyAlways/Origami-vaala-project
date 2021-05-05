@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(234, 100, 100)
+    
+    ;
+}
+
+h1{
+    color: black;
+}
+
+.header{
+    display:flexbox
+
+}
+
+.menu{
+    text-align: left;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+a:link{
+    color:darkblue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+.game{
+    position:relative;
+}
+
+.game h2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.game:hover h2{
+    opacity:1;
+}
+
+.game:hover img{
+    opacity:0.33;
+}
